@@ -61,8 +61,6 @@ const char * GetOPName(int type)
             return "M_NOTEQUAL";
         else if (type == MATH_CLIP)
             return "M_CLIP";
-        else if (type == MATH_CONV1D)
-            return "M_CONV1D";
         else if (type == MATH_DIV)
             return "M_DIV";
         else if (type == MATH_DIVDIM)
@@ -181,8 +179,6 @@ const char * GetOPName(int type)
             return "F_LOGSOFTMAX";
         else if (type == FUNC_RECTIFY)
             return "F_RECTIFY";
-        else if (type == FUNC_GELU)
-            return "F_GELU";
         else if (type == FUNC_SIGMOID)
             return "F_SIGMOID";
         else if (type == FUNC_SOFTMAX)

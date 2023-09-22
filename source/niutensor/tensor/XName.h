@@ -50,8 +50,7 @@ namespace nts { // namespace nts(NiuTrans.Tensor)
 #define MATH_NOTEQUAL           MATH_EQUAL + 1
 
 #define MATH_CLIP               MATH_NOTEQUAL + 1
-#define MATH_CONV1D             MATH_CLIP + 1
-#define MATH_DIV                MATH_CONV1D + 1
+#define MATH_DIV                MATH_CLIP + 1
 #define MATH_DIVDIM             MATH_DIV + 1
 #define MATH_MASK               MATH_DIVDIM + 1
 #define MATH_MATRIXMUL          MATH_MASK + 1
@@ -124,8 +123,7 @@ namespace nts { // namespace nts(NiuTrans.Tensor)
 #define FUNC_IDENTITY           FUNC_HARDTANH + 1
 #define FUNC_LOGSOFTMAX         FUNC_IDENTITY + 1
 #define FUNC_RECTIFY            FUNC_LOGSOFTMAX + 1
-#define FUNC_GELU               FUNC_RECTIFY + 1
-#define FUNC_SIGMOID            FUNC_GELU + 1
+#define FUNC_SIGMOID            FUNC_RECTIFY + 1
 #define FUNC_SOFTMAX            FUNC_SIGMOID + 1
 
 #define LOSS_BASE               FUNCTION_BASE * 2
